@@ -1,0 +1,1 @@
+Perform sentiment analysis on the movie review dataset using a dictionary based approach. Compare the accuracy with a classifier.
