@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title >Search</title>
+    </head>
+    <body>
+        <form method="post" action="/orders">
+            <h3>Place a new order</h3>
+            <input type="number" name="units" placeholder="units"><br>
+            <input type="submit" name="Submit">
+        </form>
+        <form method="post" action="/message">
+            <h3>Send a new message</h3>
+            <input type="text" name="name" placeholder="name here"><br>
+            <textarea  name="message" placeholder="message here"></textarea><br>
+            <input type="submit" name="Submit">
+        </form>
+        <form method="post" action="/customer">
+            <h3>Add search Detail</h3>
+            <input type="text" name="name" placeholder="from year"><br>
+            <input type="text" name="position" placeholder="to year"><br>
+            <input type="text" name="office" placeholder="Country"><br>
+            <input type="number" name="age" placeholder="Topics"><br>
+            <input type="text" name="salary" placeholder="Topics to show"><br>
+            <input type="submit" name="Submit">
+        </form>
+        
+    </body>
+    </html>
