@@ -1,0 +1,15 @@
+Cluster the Eco-hotel dataset using Nearest Neighbors Clustering with Radius:
+
+Description:
+In this assignment, students have to use the Eco-hotel dataset from the UCI repository and perform nearest neighbors clustering on it using radius based condition rather than n_neighbors.
+
+Assignment Instructions:
+Following are the instructions for the assignment,
+1) Download the dataset from the UCI repository
+2) Read the data in a variable and separate on new line
+3) Vectorize the data using a vectorizer
+4) Train the nearest neighbors with different radius values
+5) Check the cluster labels to see number of clusters.
+
+Question 1:
+Read the Eco-hotel dataset from the UCI repository and perform Nearest Neighbors clustering on it using radius based condition
